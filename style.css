@@ -1,0 +1,113 @@
+* {margin: 0; padding: 0;
+
+}
+
+.gradient {
+	background: -webkit-linear-gradient(-60deg, #096784 30%, #d83452 80%);
+	position: relative;
+	opacity: 1;
+}
+
+
+.gradient-2 {
+  background:  url("https://www.solidbackgrounds.com/images/2560x1440/2560x1440-blue-solid-color-background.jpg")
+    center
+    center
+    no-repeat;
+  background-size: cover;
+	display: block;
+
+	opacity: .3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.hero {
+	background: none;
+	margin-bottom: -3.5em;
+	z-index: 5;
+  
+}
+
+.hero h1 {
+	color: #f2f2f2;
+}
+.hero-body {
+	text-align: center;
+	z-index: 2;
+}
+.hero-body .search {
+	margin: 0 auto;
+	max-width: 25em;
+}
+.input.is-active,
+.input.is-focused,
+.input:active,
+.input:focus,
+.textarea.is-active,
+.textarea.is-focused,
+.textarea:active,
+.textarea:focus {
+	border-color: #096784;
+}
+.content-wrap {
+	z-index: 10000;
+	position: relative;
+  
+}
+.table {
+	background: none;
+}
+.table thead td, .table thead th {
+	border-width: 0 0 0.125em;
+	color: #f2f2f2;
+}
+.table thead tr:hover {
+	background: none;
+}
+.table td, .table th {
+	padding: .7em .75em;
+}
+.table tbody tr td:first-child {
+	width: 30%;
+}
+.table tbody tr:nth-child(odd) {
+	background-color: #fafafa;
+}
+.table tbody tr:hover {
+	background: #f2f2f2;
+}
+.table th, .table td {
+	border: none;
+}
+th.active .arrow {
+	opacity: 1;
+}
+.arrow {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 0;
+	margin-left: 0.313em;
+	opacity: 0.66;
+}
+.arrow.asc {
+	border-left: 0.25em solid transparent;
+	border-right: 0.25em solid transparent;
+	border-bottom: 0.25em solid #fff;
+}
+
+.arrow.dsc {
+	border-left: 0.25em solid transparent;
+	border-right: 0.25em solid transparent;
+	border-top: 0.25em solid #fff;
+}
+.footer a {
+	color: #096784;
+}
+
+
