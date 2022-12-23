@@ -13,6 +13,7 @@
 	</head>
 	<body>
 		<div id="app">
+			<div class="container-fluid" style="overflow: hidden;">
 			<div class="gradient">
 				<div class="gradient-2"></div>
 				<section class="hero is-medium is-bold">
@@ -32,6 +33,7 @@
 				<div class="column is-offset-one">
 					<app-grid :data="gridData" :columns="gridColumns" :options="options" :labels="gridLabels" :filter-key="searchQuery"> </app-grid>
 				</div>
+			</div>
 			</div>
 		</div>
 
