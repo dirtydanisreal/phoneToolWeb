@@ -2,6 +2,10 @@
 
 }
 
+#app {
+	overflow: hidden;	
+}
+
 .gradient {
 	background: -webkit-linear-gradient(-60deg, #096784 30%, #d83452 80%);
 	position: relative;
