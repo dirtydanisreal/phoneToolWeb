@@ -4,9 +4,7 @@
 
 }
 
-#app {
-    overflow: hidden;
-}
+
 
 .gradient {
     background: -webkit-linear-gradient(-60deg, #096784 30%, #d83452 80%);
@@ -64,7 +62,7 @@
 .content-wrap {
     z-index: 10000;
     position: relative;
-    overflow: hidden;
+  
 }
 
 .table {
