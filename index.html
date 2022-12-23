@@ -12,7 +12,7 @@
 </head>
 <body>
   <div id="app">
-  
+  <div class="container-fluid" style="overflow: hidden;">
     <div class="gradient">
      <div class="gradient-2"></div>
      <section class="hero is-medium is-bold">
@@ -25,11 +25,11 @@
          <input class="input" name="query" v-model="searchQuery" placeholder="Need A Number?">
    
         </div>
-   
+        </div>
        </div>
      </section>
      </div>
-     <div class="columns content-wrap ">
+     <div class="columns content-wrap table-responsive-md">
       <div class="column is-offset-one">
        <app-grid :data="gridData" :columns="gridColumns" :options="options" :labels="gridLabels" :filter-key="searchQuery">
        </app-grid>
